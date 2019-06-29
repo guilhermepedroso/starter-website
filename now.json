@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "regions": ["gru"],
   "builds": [
     { "src": "server.js", "use": "@now/node-server" },
     { "src": "next.config.js", "use": "@now/next" }
